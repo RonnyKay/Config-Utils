@@ -63,16 +63,12 @@
           "type": "node"
         },
         {
-          "background": "#00acd7",
-          "foreground": "#111111",
-          "invert_powerline": true,
-          "powerline_symbol": "\ue0b2",
-          "properties": {
-            "fetch_version": true
-          },
+          "type": "go",
           "style": "powerline",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} \ue627 ",
-          "type": "go"
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#7FD5EA",
+          "template": " \uFCD1 {{ .Full }} "
         },
         {
           "background": "#4063D8",
