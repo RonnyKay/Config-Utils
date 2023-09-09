@@ -106,7 +106,7 @@
           },
           "style": "powerline",
           "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} \ue791 ",
-          "type": "ruby"
+          "type": "ruby1"
         },
         {
           "background": "#FEAC19",
