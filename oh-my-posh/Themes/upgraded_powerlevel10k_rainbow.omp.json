@@ -89,10 +89,10 @@
           "powerline_symbol": "\ue0b2",
           "properties": {
             "display_mode": "files",
-            "fetch_virtual_env": false
+            "fetch_virtual_env": false,
+            "prefix": " \uE235 "
           },
           "style": "powerline",
-          "template": " Py: {{ .Full }} Env: {{ .venv }} \ue235 ",
           "type": "python"
         },
         {
