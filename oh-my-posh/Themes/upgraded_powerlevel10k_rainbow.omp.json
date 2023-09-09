@@ -92,7 +92,7 @@
             "fetch_virtual_env": false
           },
           "style": "powerline",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }} \ue235 ",
+          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} \ue235 ",
           "type": "python"
         },
         {
