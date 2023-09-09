@@ -89,7 +89,7 @@
           "powerline_symbol": "\ue0b2",
           "properties": {
             "display_mode": "files",
-            "fetch_virtual_env": true
+            "fetch_virtual_env": false
           },
           "style": "powerline",
           "template": " Py: {{ .Full }} Env: {{ .Venv }} \ue235 ",
