@@ -88,11 +88,11 @@
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
-            "display_mode": "files",
+            "display_mode": "context",
             "fetch_virtual_env": false
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} \ue235 ",
           "type": "python"
         },
         {
